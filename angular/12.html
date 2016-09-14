@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#con{
+			width: 100px;
+			height: 100px;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+	<!-- #  阻止浏览器跳转 -->
+		<li><a href="#/home">123</a></li>
+		<li><a href="#/list">456</a></li>
+	</ul>
+	<div id="con"></div>
+</body>
+<script type="text/javascript" src="lib/require.js" data-main="app"></script>
+<script type="text/javascript">
+	// 使用模块,依赖，注入
+	// require(['./math.js'],function(math){
+	// 	var result = math.add(1,2);
+	// 	alert(result);
+	// })
+</script>
+</html>
