@@ -1,0 +1,140 @@
+	.card-main{
+		background: #eee;
+		height: 100%;
+		position: relative;
+		overflow: hidden;
+	p{
+		margin: 0;
+	}
+		color:#888;
+		padding: 0.1px;
+	}
+	.card-main>div{
+		background: white;border-top: 0.05rem solid #dfdfdf;
+		border-bottom: 0.1rem solid #dfdfdf;
+		
+		margin-top: 0.5rem;
+	}
+	.card-top{
+		.top-main{
+			width: 100%;
+			div:first-child{
+				margin-top: 1rem;
+				height: 4rem;
+				background: url(../../img/7.png) center no-repeat;
+				background-size:1.8rem ; 
+			}
+			p:nth-child(2){
+				text-align: center;
+				height: 2rem;
+				font-size:0.8rem;
+				color:#888;
+			}
+		}
+		
+	}
+	.card-bottom{
+		div:first-child{
+			height: 3.9rem;
+			width: 100%;
+			background: url(../../img/8.png) center no-repeat;
+			background-size:6.45rem  3.875rem;
+			margin-top: 1.875rem;
+		}
+		p:nth-child(2){
+			text-align: center;
+			height: 2rem;
+			font-size:0.8rem;
+			color:#888;
+		}
+		div:last-child{
+			display: flex;
+			justify-content:center;
+			a{
+				font-size:0.8rem;
+				height: 2rem;
+				color:#5f5f5f;
+				text-decoration: underline;
+			}
+		}
+	}
+.card-info{
+	width: 16rem;
+	height: 100%;
+	position: absolute;
+	left: 16rem;
+	top: 0;
+	background: white;
+	p{
+		font-size: 0.8rem;
+		text-align: center;
+		margin:0.5rem 0; 
+	}
+	table{
+		width: 16rem;
+		border-collapse: collapse;
+		.inp{
+			width: 100%;
+			height: 2rem;
+			font-size: 0.6rem;
+			letter-spacing: 0.05rem;
+			td{
+				border-top: 0.05rem solid #dfdfdf;
+				border-bottom: 0.05rem solid #dfdfdf;
+			}
+			td:first-child{
+				width: 3rem;
+				text-align: right;
+			}
+			td:last-child{
+				width: 13rem;
+				input{
+					border: none;
+				}
+			}
+		}
+		
+	}
+}
+.pic{
+	width: 80%;
+	margin: 1rem auto;
+	height: 4rem;
+	border: 0.05rem dashed #dfdfdf;
+	label{
+		width: 100%;
+		height: 100%;
+		span{
+			display: block;
+			text-align: center;
+		}
+		span:first-child{
+			margin-top:0.8rem; 
+			color: #ec6d65;
+			font-weight: bolder;
+			font-size: 1rem;
+		}
+		span:last-child{
+			margin-top:0.5rem; 
+			font-size: 0.5rem;
+		}
+	}
+	#pic-cho{
+		display: none;
+	}
+}
+.allbtn{
+	width: 90%;
+	height: 2rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content:space-between;
+}
+.btn{
+	width: 6.8rem;
+	height: 1.7rem;
+	background: #ec6d65;
+	color: white;
+	border: none;
+	outline: none;
+}
